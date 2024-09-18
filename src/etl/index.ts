@@ -5,7 +5,7 @@ import { Transaction, TransactionQuery } from '../api/types';
 import { OUTPUT_PATH } from '../config';
 import { writeTransactionsToCSV } from './csvWriter'
 
-export async function main(query: TransactionQuery) {
+export async function runETLProcess(query: TransactionQuery) {
   try {
     console.log(`Fetching transactions from ${query.fromDate} to ${query.toDate}...`);
     const response = await api.transaction.getTransactions(query);
