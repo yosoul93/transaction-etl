@@ -12,7 +12,9 @@ This project is an ETL (Extract, Transform, Load) script for fetching transactio
 
 ## Project Structure
 
+```
 project-root/
+│
 ├── src/
 │   ├── api/
 │   │   ├── fetchApi/
@@ -23,11 +25,14 @@ project-root/
 │   │   ├── index.ts
 │   │   ├── transaction.ts
 │   │   └── types.ts
+│   │
 │   ├── etl/
 │   │   ├── csvWriter.ts
 │   │   └── index.ts
+│   │
 │   ├── mock-server/
 │   │   └── server.ts
+│   │
 │   ├── __tests__/
 │   │   ├── api/
 │   │   │   └── fetchApi.test.ts
@@ -36,10 +41,13 @@ project-root/
 │   │   │   └── etl.test.ts
 │   │   └── mock-server/
 │   │       └── server.test.ts
+│   │
 │   ├── config.ts
 │   └── index.ts
+│
 ├── data/
 │   └── output.csv
+│
 ├── .env
 ├── .env.test
 ├── .gitignore
@@ -48,6 +56,7 @@ project-root/
 ├── package.json
 ├── tsconfig.json
 └── README.md
+```
 
 ## Setup
 
