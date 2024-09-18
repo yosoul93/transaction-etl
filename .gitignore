@@ -1,0 +1,42 @@
+# Dependency directories
+node_modules/
+
+# TypeScript output directory
+dist/
+
+# Environment variables
+.env
+.env.test
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# IDE and Editor folders
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env.test
+
+# CSV output file
+output.csv
